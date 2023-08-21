@@ -50,4 +50,4 @@ $\Theta(N)$.
 
 $\Theta(N + 2^M)$.
 
-> TODO: $\Theta(N)$ if we use divide-and-conquer composition?
+> TODO: $\Theta(N + M^2)$ could be achievable with divide-and-conquer composition.
