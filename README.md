@@ -32,4 +32,12 @@ data get storage concat: result
 
 ## Complexity
 
-> TODO
+For the concatenated string of `first` and `second`, let $N$ be its string, and $M$ be the number of characters that need to be escaped.
+
+### Fast path
+
+$\Theta(N)$.
+
+### Slow path
+
+$\Theta(N + 2^M)$.
