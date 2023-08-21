@@ -35,7 +35,7 @@ data get storage concat: result
 
 ## Complexity
 
-For the concatenated string of `first` and `second`, let $N$ be its string, and $M$ be the number of characters that need to be escaped.
+For the concatenated string of `first` and `second`, let $N$ be its length, and $M$ be the number of characters that need to be escaped.
 
 ### Fast path
 
