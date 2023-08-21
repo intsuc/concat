@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Concatenates two strings in storage",
+    "pack_format": 16,
+    "supported_formats": {
+      "min_inclusive": 16,
+      "max_inclusive": 17
+    }
+  }
+}
