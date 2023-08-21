@@ -25,7 +25,7 @@ data get storage concat: result
 
 ### Slow path
 
-1. Decompose `first` and `second` into substrings containing only characters that need not to be escaped or a character that needs to be escaped (`"` and/or `\`).
+1. Decompose `first` and `second` into substrings containing only characters that need not to be escaped or a character that needs to be escaped (`"` or `\`).
 2. If the last part of `first` and the first part of `second` are both substrings that don't need to be escaped, compose them.
 3. Generate an escaping string containing only backslashes (`\`) of a length that exactly *survives* the composition of these substrings.
 4. Compose the substrings two by two from the end.
