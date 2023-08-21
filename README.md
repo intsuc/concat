@@ -1,5 +1,8 @@
 # <samp>concat</samp>
 
+> **Warning**
+> This data pack is intended to demonstrate the feasibility of concatenating strings that need to be escaped in storage without relying on component updates, and is not intended to be used in production.
+
 Concatenates two strings in storage.
 
 ## Usage
