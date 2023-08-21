@@ -49,3 +49,5 @@ $\Theta(N)$.
 ### Slow path
 
 $\Theta(N + 2^M)$.
+
+> TODO: $\Theta(N)$ if we use divide-and-conquer composition?
