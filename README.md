@@ -36,7 +36,7 @@ data get storage concat: result
 5. Compose the remaining substrings two by two from the end.
     1. Alternate between composing the two substrings with the escaping string appended to the left side only and to the neither side.
     2. Halve the length of the escaping string after each composition.
-6. Once there is only one substring left, this becomes `result`.
+    3. Once there is only one substring left, this becomes `result`.
 
 ## Complexity
 
