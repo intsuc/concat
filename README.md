@@ -25,6 +25,7 @@ data get storage concat: result
 2. Attempt concatenation with double quotes using the macro `"$(first)$(second)"`.
     1. If the parsing succeeds and **the resulting length matches the sum of the lengths of `first` and `second`**, this becomes `result`.
 
+> **Note**
 > The second condition is necessary because the parsing can succeed and compose two characters accidentally if the concatenated string contains one or more valid escape sequences.
 
 ### Slow path
